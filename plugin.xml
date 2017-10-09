@@ -38,16 +38,16 @@
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="$URL_SCHEME" android:pathPrefix="$ANDROID_PATH_PREFIX" />
-          <data android:scheme="$URL_SCHEME" android:pathPrefix="$ANDROID_PATH_2_PREFIX" />
-          <data android:scheme="$URL_SCHEME" android:pathPrefix="$ANDROID_PATH_3_PREFIX" />
+          <data android:scheme="$URL_SCHEME" android:pathPrefix="$ANDROID_2_PATH_PREFIX" />
+          <data android:scheme="$URL_SCHEME" android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
         </intent-filter>
         <intent-filter android:autoVerify="true">
           <action android:name="android.intent.action.VIEW" />
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIX" />
-          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_2_PREFIX" />
-          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_3_PREFIX" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_2_PATH_PREFIX" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
         </intent-filter>
       </config-file>
 
