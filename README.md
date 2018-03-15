@@ -1,7 +1,7 @@
 Ionic Deeplinks Plugin
 ======
 
-This is a fork of the no longer maintained [Ionic Deeplinks](https://github.com/fephil/ionic-plugin-deeplinks) plugin with a few changes:
+This is a fork of the no longer maintained [Ionic Deeplinks](https://github.com/ionic-team/ionic-plugin-deeplinks) plugin with a few changes:
 
 * Supports 3 deeplinks with paths.
 * Reverts the "fix(routing): fixes routing for custom app scheme" change.
